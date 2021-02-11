@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "plusde_scraper"
+version = "0.1.0"
+description = ""
+authors = ["Pablo Álvarez Córdoba <pabloalvarezcordoba@protonmail.ch>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.5"
+Scrapy = "^2.4.1"
+scrapy-selenium = "^0.0.7"
+scrapy-splash = "^0.7.2"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
