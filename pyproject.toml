@@ -1,8 +1,9 @@
 [tool.poetry]
-name = "plusde_scraper"
+name = "plusdede_scraper"
 version = "0.1.0"
 description = ""
 authors = ["Pablo Álvarez Córdoba <pabloalvarezcordoba@protonmail.ch>"]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8.5"
